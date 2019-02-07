@@ -20,7 +20,6 @@ class Form extends React.Component {
             <form onSubmit={(e) => this.onFormSubmit(e)}>
                 <input
                     value={this.state.fontColor}
-                    type="file"
                     placeholder="Enter a font color:" 
                     onChange={(e) => this.setState({fontColor: e.target.value})} />
                 <input
