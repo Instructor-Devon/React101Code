@@ -1,0 +1,7 @@
+.user {
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    min-height: 100px;
+}
